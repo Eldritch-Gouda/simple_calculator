@@ -11,8 +11,8 @@ window.geometry("500x300")
 
 #---Ein- Ausgabefeld---
 
-ausgabefeld = tk.Entry(window, width=25, font=("Arial", 20))
-ausgabefeld.place(x=20, y=20)
+display = tk.Entry(window, width=25, font=("Arial", 20))
+display.place(x=20, y=20)
 
 #---Buttons---
 
