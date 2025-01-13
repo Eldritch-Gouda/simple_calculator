@@ -6,7 +6,7 @@ from tkinter import *
 #---Window---
 
 window = tk.Tk()
-window.title = "Taschenrechner"
+window.title = "Calculator"
 window.geometry("500x300")
 
 #---Ein- Ausgabefeld---
@@ -16,45 +16,45 @@ ausgabefeld.place(x=20, y=20)
 
 #---Buttons---
 
-eins = tk.Button(window, width=5, font=("Arial", 15), text="1")
-eins.place(x=20, y=60)
-zwei = tk.Button(window, width=5, font=("Arial", 15), text="2")
-zwei.place(x=85, y=60)
-drei = tk.Button(window, width=5, font=("Arial", 15), text="3")
-drei.place(x=150, y=60)
-vier = tk.Button(window, width=5, font=("Arial", 15), text="4")
-vier.place(x=20, y=100)
-fünf = tk.Button(window, width=5, font=("Arial", 15), text="5")
-fünf.place(x=85, y=100)
-sechs = tk.Button(window, width=5, font=("Arial", 15), text="6")
-sechs.place(x=150, y=100)
-sieben = tk.Button(window, width=5, font=("Arial", 15), text="7")
-sieben.place(x=20, y=140)
-acht = tk.Button(window, width=5, font=("Arial", 15), text="8")
-acht.place(x=85, y=140)
-neun = tk.Button(window, width=5, font=("Arial", 15), text="9")
-neun.place(x=150, y=140)
-null = tk.Button(window, width=5, font=("Arial", 15), text="0")
-null.place(x=20, y=180)
-positiv_negativ = tk.Button(window, width=5, font=("Arial", 15), text="+/-")
-positiv_negativ.place(x=85, y=180)
-komma = tk.Button(window, width=5, font=("Arial", 15), text=",")
-komma.place(x=150, y=180)
+one = tk.Button(window, width=5, font=("Arial", 15), text="1")
+one.place(x=20, y=60)
+two = tk.Button(window, width=5, font=("Arial", 15), text="2")
+two.place(x=85, y=60)
+three = tk.Button(window, width=5, font=("Arial", 15), text="3")
+three.place(x=150, y=60)
+four = tk.Button(window, width=5, font=("Arial", 15), text="4")
+four.place(x=20, y=100)
+five = tk.Button(window, width=5, font=("Arial", 15), text="5")
+five.place(x=85, y=100)
+six = tk.Button(window, width=5, font=("Arial", 15), text="6")
+six.place(x=150, y=100)
+seven = tk.Button(window, width=5, font=("Arial", 15), text="7")
+seven.place(x=20, y=140)
+eight = tk.Button(window, width=5, font=("Arial", 15), text="8")
+eight.place(x=85, y=140)
+nine = tk.Button(window, width=5, font=("Arial", 15), text="9")
+nine.place(x=150, y=140)
+zero = tk.Button(window, width=5, font=("Arial", 15), text="0")
+zero.place(x=20, y=180)
+positive_negative = tk.Button(window, width=5, font=("Arial", 15), text="+/-")
+positive_negative.place(x=85, y=180)
+comma = tk.Button(window, width=5, font=("Arial", 15), text=",")
+comma.place(x=150, y=180)
 plus = tk.Button(window, width=5, font=("Arial", 15), text="+")
 plus.place(x=215, y=60)
 minus = tk.Button(window, width=5, font=("Arial", 15), text="-")
 minus.place(x=215, y=100)
-mal = tk.Button(window, width=5, font=("Arial", 15), text="*")
-mal.place(x=215, y=140)
-geteilt = tk.Button(window, width=5, font=("Arial", 15), text="/")
-geteilt.place(x=215, y=180)
-loeschen = tk.Button(window, width=5, font=("Arial", 15), text="<-")
-loeschen.place(x=280, y=60)
-ergebnis = tk.Button(window, width=5, font=("Arial", 15), text="=")
-ergebnis.place(x=280, y=180)
+multiplication = tk.Button(window, width=5, font=("Arial", 15), text="*")
+multiplication.place(x=215, y=140)
+divide = tk.Button(window, width=5, font=("Arial", 15), text="/")
+divide.place(x=215, y=180)
+erase = tk.Button(window, width=5, font=("Arial", 15), text="<-")
+erase.place(x=280, y=60)
+result = tk.Button(window, width=5, font=("Arial", 15), text="=")
+result.place(x=280, y=180)
 
 
-#---Button Funktionen---
+#---Button Functions---
 
 
 
